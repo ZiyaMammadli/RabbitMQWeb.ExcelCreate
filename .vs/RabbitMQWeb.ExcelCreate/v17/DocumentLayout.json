@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA8BA1B-2E7F-44D6-91F5-EE83E78744D2}|RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj|c:\\users\\user\\source\\repos\\rabbitmqweb.excelcreate\\rabbitmqweb.excelcreate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA8BA1B-2E7F-44D6-91F5-EE83E78744D2}|RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj|solutionrelative:rabbitmqweb.excelcreate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA8BA1B-2E7F-44D6-91F5-EE83E78744D2}|RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj|c:\\users\\user\\source\\repos\\rabbitmqweb.excelcreate\\rabbitmqweb.excelcreate\\registrations\\appdbcontextregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA8BA1B-2E7F-44D6-91F5-EE83E78744D2}|RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj|solutionrelative:rabbitmqweb.excelcreate\\registrations\\appdbcontextregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA8BA1B-2E7F-44D6-91F5-EE83E78744D2}|RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj|c:\\users\\user\\source\\repos\\rabbitmqweb.excelcreate\\rabbitmqweb.excelcreate\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA8BA1B-2E7F-44D6-91F5-EE83E78744D2}|RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj|solutionrelative:rabbitmqweb.excelcreate\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\Program.cs",
+              "RelativeDocumentMoniker": "RabbitMQWeb.ExcelCreate\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\Program.cs",
+              "RelativeToolTip": "RabbitMQWeb.ExcelCreate\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:16:33.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContextRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\Registrations\\AppDbContextRegistration.cs",
+              "RelativeDocumentMoniker": "RabbitMQWeb.ExcelCreate\\Registrations\\AppDbContextRegistration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\Registrations\\AppDbContextRegistration.cs",
+              "RelativeToolTip": "RabbitMQWeb.ExcelCreate\\Registrations\\AppDbContextRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:54:17.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RabbitMQWeb.ExcelCreate\\Contexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "RabbitMQWeb.ExcelCreate\\Contexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:52:43.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
