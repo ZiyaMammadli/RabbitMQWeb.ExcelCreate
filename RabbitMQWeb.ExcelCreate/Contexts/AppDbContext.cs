@@ -14,9 +14,7 @@ public class AppDbContext:IdentityDbContext
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
-        var hasher = new PasswordHasher<IdentityUser>();
-
     }
-    DbSet<AppUser> Users {  get; set; }
-    DbSet<UserFIle> UserFIles {  get; set; }
+    public DbSet<AppUser> Users {  get; set; }
+    public DbSet<UserFIle> UserFIles {  get; set; }
 }
