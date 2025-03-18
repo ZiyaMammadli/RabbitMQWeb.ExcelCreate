@@ -1,0 +1,24 @@
+﻿@model List<UserFIle>
+<h1>Files</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>File Name</th>
+            <th>Created Date</th>
+            <th>File Status</th>
+            <th>Download Link</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FileName</td>
+            <td>@item.GetCreatedDate</td>
+            <td>@item.FileStatus</td>
+            <td>
+                <a href="~/files/@item.FilePath" class="btn btn-primary @(item.FileStatus==FileStatus.Creating ? "disabled" : "")"></a>
+            </td>
+        </tr>
+    }
+</table>
