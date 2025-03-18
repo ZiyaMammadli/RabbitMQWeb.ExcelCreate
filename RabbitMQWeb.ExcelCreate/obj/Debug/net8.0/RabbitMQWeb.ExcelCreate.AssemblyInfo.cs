@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RabbitMQWeb.ExcelCreate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd4b85996b39b6d384320f04fe10a5b8fe846f57")]
 [assembly: System.Reflection.AssemblyProductAttribute("RabbitMQWeb.ExcelCreate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RabbitMQWeb.ExcelCreate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RabbitMQWeb.ExcelCreate.Contexts;
+using RabbitMQWeb.ExcelCreate.Models;
 
 namespace RabbitMQWeb.ExcelCreate.Registrations;
 
@@ -11,7 +12,7 @@ public static class AppDbContextRegistration
         services.AddDbContext<AppDbContext>(opt =>
         {
             opt.UseSqlServer(config.GetConnectionString("default"));
-        }).AddIdentity<IdentityUser, IdentityRole>(opt =>
+        }).AddIdentity<AppUser, IdentityRole>(opt =>
         {
             opt.Password.RequireNonAlphanumeric = true;
             opt.Password.RequireLowercase = true;
