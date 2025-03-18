@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RabbitMQWeb.ExcelCreate.Contexts;
 using RabbitMQWeb.ExcelCreate.Models;
-using System.Diagnostics.CodeAnalysis;
 
 namespace RabbitMQWeb.ExcelCreate.Controllers
 {
@@ -32,6 +31,7 @@ namespace RabbitMQWeb.ExcelCreate.Controllers
             {
                 UserId = user.Id,
                 FileName = fileName,
+                FilePath = "-",
                 FileStatus = FileStatus.Creating,
             };
             TempData["StartCreatingExcel"] = true;
