@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddAppDbContextRegistration(builder.Configuration);
+builder.Services.AddRabbitMQRegistration(builder.Configuration);
 var app = builder.Build();
 
 
