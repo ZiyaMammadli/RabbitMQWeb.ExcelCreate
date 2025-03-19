@@ -9,6 +9,7 @@ namespace RabbitMQWeb.ExcelCreate.Registrations
         {
             services.AddScoped(sp => new ConnectionFactory { Uri = new Uri( config.GetConnectionString("RabbitMQ")) });
             services.AddScoped<RabbitMqClientService>();
+            services.AddScoped<RabbitMQPublisher>();
         }
     }
 }
