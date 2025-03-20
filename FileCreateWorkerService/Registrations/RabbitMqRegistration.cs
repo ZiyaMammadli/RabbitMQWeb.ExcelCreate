@@ -7,7 +7,7 @@ public static class RabbitMqRegistration
 {
     public static void AddRabbitMqRegistration(this IServiceCollection services,IConfiguration config)
     {
-        services.AddScoped(sp => new ConnectionFactory() { Uri = new Uri(config.GetConnectionString("RabbitMQ"))});
-        services.AddScoped<RabbitMqClientService>();
+        services.AddSingleton(sp => new ConnectionFactory() { Uri = new Uri(config.GetConnectionString("RabbitMQ"))});
+        services.AddSingleton<RabbitMqClientService>();
     }
 }

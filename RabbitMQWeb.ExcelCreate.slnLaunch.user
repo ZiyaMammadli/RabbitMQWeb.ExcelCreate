@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "FileCreateWorkerService\\FileCreateWorkerService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

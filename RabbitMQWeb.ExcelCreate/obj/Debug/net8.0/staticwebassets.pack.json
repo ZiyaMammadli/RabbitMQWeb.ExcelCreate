@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-9ca2c73-1f.xlsx",
+      "PackagePath": "staticwebassets\\files\\product-excel-9ca2c73-1f.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-a76bc37-d3.xlsx",
+      "PackagePath": "staticwebassets\\files\\product-excel-a76bc37-d3.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-b0096a5-d8.xlsx",
+      "PackagePath": "staticwebassets\\files\\product-excel-b0096a5-d8.xlsx"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
