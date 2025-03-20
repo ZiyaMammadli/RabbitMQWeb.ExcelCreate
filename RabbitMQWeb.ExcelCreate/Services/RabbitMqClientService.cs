@@ -2,7 +2,7 @@
 
 namespace RabbitMQWeb.ExcelCreate.Services;
 
-public class RabbitMqClientService:IDisposable
+public class RabbitMqClientService : IDisposable
 {
     private readonly ConnectionFactory _connectionFactory;
     private IChannel _channel;
@@ -20,17 +20,17 @@ public class RabbitMqClientService:IDisposable
 
     public async Task<IChannel> Connect()
     {
-        _connection=await _connectionFactory.CreateConnectionAsync();
-        if(_channel is { IsOpen: true })
+        _connection = await _connectionFactory.CreateConnectionAsync();
+        if (_channel is { IsOpen: true })
         {
-            return  _channel;
+            return _channel;
         }
-        _channel=await _connection.CreateChannelAsync();
-        await _channel.ExchangeDeclareAsync(ExchangeName,ExchangeType.Direct,true,false);
-        await _channel.QueueDeclareAsync(QueueName,true,false,false);
+        _channel = await _connection.CreateChannelAsync();
+        await _channel.ExchangeDeclareAsync(ExchangeName, ExchangeType.Direct, true, false);
+        await _channel.QueueDeclareAsync(QueueName, true, false, false);
         await _channel.QueueBindAsync(QueueName, ExchangeName, RouteKey);
 
-        _logger.LogInformation("Connection created...");
+        _logger.LogInformation("Connection is created...");
 
         return _channel;
     }
@@ -41,6 +41,6 @@ public class RabbitMqClientService:IDisposable
         _channel?.Dispose();
         _connection?.CloseAsync();
         _connection?.Dispose();
-        _logger.LogInformation("Connection closed...");
+        _logger.LogInformation("Connection is closed...");
     }
 }

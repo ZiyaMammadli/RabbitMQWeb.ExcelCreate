@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RabbitMQWeb.ExcelCreate.Contexts;
 using RabbitMQWeb.ExcelCreate.Models;
+using RabbitMQWeb.ExcelCreate.Services;
 
 namespace RabbitMQWeb.ExcelCreate.Controllers
 {
@@ -12,11 +13,13 @@ namespace RabbitMQWeb.ExcelCreate.Controllers
     {
         private readonly AppDbContext _appDbContext;
         private readonly UserManager<AppUser> _userManager;
+        private readonly RabbitMQPublisher _rabbitMQPublisher;
 
-        public ProductController(AppDbContext appDbContext, UserManager<AppUser> userManager)
+        public ProductController(AppDbContext appDbContext, UserManager<AppUser> userManager,RabbitMQPublisher rabbitMQPublisher)
         {
             _appDbContext = appDbContext;
             _userManager = userManager;
+            _rabbitMQPublisher = rabbitMQPublisher;
         }
 
         public IActionResult Index()
@@ -37,6 +40,7 @@ namespace RabbitMQWeb.ExcelCreate.Controllers
             TempData["StartCreatingExcel"] = true;
             await _appDbContext.AddAsync(userFIle);
             await _appDbContext.SaveChangesAsync();
+            await _rabbitMQPublisher.Publish(new CreateExcelMessage() { UserFileId=userFIle.Id,UserId=user.Id });
             return RedirectToAction(nameof(GetFiles));
         }
         public async Task<IActionResult> GetFiles()
