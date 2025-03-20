@@ -40,7 +40,7 @@ namespace RabbitMQWeb.ExcelCreate.Controllers
             TempData["StartCreatingExcel"] = true;
             await _appDbContext.AddAsync(userFIle);
             await _appDbContext.SaveChangesAsync();
-            await _rabbitMQPublisher.Publish(new CreateExcelMessage() { UserFileId=userFIle.Id,UserId=user.Id });
+            await _rabbitMQPublisher.Publish(new CreateExcelMessage() { UserFileId=userFIle.Id });
             return RedirectToAction(nameof(GetFiles));
         }
         public async Task<IActionResult> GetFiles()
