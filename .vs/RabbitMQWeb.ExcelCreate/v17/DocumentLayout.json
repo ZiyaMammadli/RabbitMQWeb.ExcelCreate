@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEA8BA1B-2E7F-44D6-91F5-EE83E78744D2}|RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj|c:\\users\\user\\source\\repos\\rabbitmqweb.excelcreate\\rabbitmqweb.excelcreate\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA8BA1B-2E7F-44D6-91F5-EE83E78744D2}|RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj|solutionrelative:rabbitmqweb.excelcreate\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEA8BA1B-2E7F-44D6-91F5-EE83E78744D2}|RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj|c:\\users\\user\\source\\repos\\rabbitmqweb.excelcreate\\rabbitmqweb.excelcreate\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA8BA1B-2E7F-44D6-91F5-EE83E78744D2}|RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate.csproj|solutionrelative:rabbitmqweb.excelcreate\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "RabbitMQWeb.ExcelCreate\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "RabbitMQWeb.ExcelCreate\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCYAAAAOAAAAAAAAAA==",
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "RabbitMQWeb.ExcelCreate\\Controllers\\FilesController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "RabbitMQWeb.ExcelCreate\\Controllers\\FilesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwA0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:38:54.978Z",
+              "WhenOpened": "2025-03-20T11:42:28.761Z",
               "EditorCaption": ""
             }
           ]
