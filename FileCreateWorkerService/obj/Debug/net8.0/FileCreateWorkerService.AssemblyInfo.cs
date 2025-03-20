@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileCreateWorkerService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34b6b202c9540d7b3688b402e6a969aa1bb04e5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d36613533db55a3884de8324adc9098af4c15d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileCreateWorkerService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileCreateWorkerService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
