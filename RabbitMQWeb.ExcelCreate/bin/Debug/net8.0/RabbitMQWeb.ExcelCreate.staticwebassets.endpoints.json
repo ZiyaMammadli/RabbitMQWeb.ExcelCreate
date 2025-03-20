@@ -495,6 +495,88 @@
       ]
     },
     {
+      "Route": "files/product-excel-fe9440e-f5.s4uy9duv3y.xlsx",
+      "AssetFile": "files/product-excel-fe9440e-f5.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 19:01:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s4uy9duv3y"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM="
+        },
+        {
+          "Name": "label",
+          "Value": "files/product-excel-fe9440e-f5.xlsx"
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-fe9440e-f5.xlsx",
+      "AssetFile": "files/product-excel-fe9440e-f5.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 19:01:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js",
       "Selectors": [],

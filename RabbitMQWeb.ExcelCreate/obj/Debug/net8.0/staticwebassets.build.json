@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OZGuVrEioYUAeLmLVlAxwJ4xlz7AFREnI0Y3ofjy5f0=",
+  "Hash": "t/b3uSTD8i7SzIBDnYSS9zcLhmHusf2i0UJQePzNHS0=",
   "Source": "RabbitMQWeb.ExcelCreate",
   "BasePath": "_content/RabbitMQWeb.ExcelCreate",
   "Mode": "Default",
@@ -162,6 +162,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\product-excel-b0096a5-d8.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-fe9440e-f5.xlsx",
+      "SourceId": "RabbitMQWeb.ExcelCreate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\",
+      "BasePath": "_content/RabbitMQWeb.ExcelCreate",
+      "RelativePath": "files/product-excel-fe9440e-f5#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s4uy9duv3y",
+      "Integrity": "DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\product-excel-fe9440e-f5.xlsx"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\js\\site.js",
@@ -1790,6 +1811,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-QV2G+VXWkThigH41wAbsl5wGFkJosjWPzgeDdRfpVy0="
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-fe9440e-f5.s4uy9duv3y.xlsx",
+      "AssetFile": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-fe9440e-f5.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 19:01:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s4uy9duv3y"
+        },
+        {
+          "Name": "label",
+          "Value": "files/product-excel-fe9440e-f5.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM="
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-fe9440e-f5.xlsx",
+      "AssetFile": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-fe9440e-f5.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 19:01:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM="
         }
       ]
     },

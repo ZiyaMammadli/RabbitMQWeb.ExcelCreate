@@ -47,7 +47,7 @@ namespace RabbitMQWeb.ExcelCreate.Controllers
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
-            return View(await _appDbContext.UserFIles.Where(uf=>uf.UserId==user.Id).ToListAsync());
+            return View(await _appDbContext.UserFIles.Where(uf=>uf.UserId==user.Id).OrderByDescending(uf=>uf.Id).ToListAsync());
         }
     }
 }

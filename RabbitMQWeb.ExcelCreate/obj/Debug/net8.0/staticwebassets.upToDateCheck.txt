@@ -3,6 +3,7 @@ wwwroot\favicon.ico
 wwwroot\files\product-excel-9ca2c73-1f.xlsx
 wwwroot\files\product-excel-a76bc37-d3.xlsx
 wwwroot\files\product-excel-b0096a5-d8.xlsx
+wwwroot\files\product-excel-fe9440e-f5.xlsx
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\files\\product-excel-b0096a5-d8.xlsx"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-fe9440e-f5.xlsx",
+      "PackagePath": "staticwebassets\\files\\product-excel-fe9440e-f5.xlsx"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

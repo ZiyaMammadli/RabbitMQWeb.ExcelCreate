@@ -60,6 +60,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QV2G\u002BVXWkThigH41wAbsl5wGFkJosjWPzgeDdRfpVy0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"22113"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"},{"Name":"ETag","Value":"\u0022QV2G\u002BVXWkThigH41wAbsl5wGFkJosjWPzgeDdRfpVy0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Mar 2025 18:34:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RabbitMQWeb.ExcelCreate/files/product-excel-fe9440e-f5.s4uy9duv3y.xlsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\product-excel-fe9440e-f5.xlsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s4uy9duv3y"},{"Name":"integrity","Value":"sha256-DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM="},{"Name":"label","Value":"_content/RabbitMQWeb.ExcelCreate/files/product-excel-fe9440e-f5.xlsx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"22113"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"},{"Name":"ETag","Value":"\u0022DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Mar 2025 19:01:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RabbitMQWeb.ExcelCreate/files/product-excel-fe9440e-f5.xlsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\product-excel-fe9440e-f5.xlsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"22113"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"},{"Name":"ETag","Value":"\u0022DGoi7Judpshg5oqkJZ4OtYcaqOdYuyfzURlXZxWZBOM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Mar 2025 19:01:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RabbitMQWeb.ExcelCreate/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
