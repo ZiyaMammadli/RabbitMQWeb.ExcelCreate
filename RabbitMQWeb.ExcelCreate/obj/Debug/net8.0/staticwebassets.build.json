@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t/b3uSTD8i7SzIBDnYSS9zcLhmHusf2i0UJQePzNHS0=",
+  "Hash": "nqfVm4I+rdYrVodCq3pa5vKq97+izor+4D8UcnSbCVs=",
   "Source": "RabbitMQWeb.ExcelCreate",
   "BasePath": "_content/RabbitMQWeb.ExcelCreate",
   "Mode": "Default",
@@ -101,6 +101,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-4322cff-76.xlsx",
+      "SourceId": "RabbitMQWeb.ExcelCreate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\",
+      "BasePath": "_content/RabbitMQWeb.ExcelCreate",
+      "RelativePath": "files/product-excel-4322cff-76#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c7r8y3mbet",
+      "Integrity": "uKkn8oHd4l0O3gwTtcnzOXZ3TfV+n2dFRf5wqqvJkjM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\product-excel-4322cff-76.xlsx"
+    },
+    {
       "Identity": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-9ca2c73-1f.xlsx",
       "SourceId": "RabbitMQWeb.ExcelCreate",
       "SourceType": "Discovered",
@@ -162,6 +183,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\product-excel-b0096a5-d8.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-c1cf60a-33.xlsx",
+      "SourceId": "RabbitMQWeb.ExcelCreate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\",
+      "BasePath": "_content/RabbitMQWeb.ExcelCreate",
+      "RelativePath": "files/product-excel-c1cf60a-33#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z65uleagnt",
+      "Integrity": "y0Iajho8+SNKZ0O1paCxzrrjr3jXnXaCeHu+KE0SJzI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\product-excel-c1cf60a-33.xlsx"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-fe9440e-f5.xlsx",
@@ -1569,6 +1611,88 @@
       ]
     },
     {
+      "Route": "files/product-excel-4322cff-76.c7r8y3mbet.xlsx",
+      "AssetFile": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-4322cff-76.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uKkn8oHd4l0O3gwTtcnzOXZ3TfV+n2dFRf5wqqvJkjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:44:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c7r8y3mbet"
+        },
+        {
+          "Name": "label",
+          "Value": "files/product-excel-4322cff-76.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uKkn8oHd4l0O3gwTtcnzOXZ3TfV+n2dFRf5wqqvJkjM="
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-4322cff-76.xlsx",
+      "AssetFile": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-4322cff-76.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uKkn8oHd4l0O3gwTtcnzOXZ3TfV+n2dFRf5wqqvJkjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:44:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uKkn8oHd4l0O3gwTtcnzOXZ3TfV+n2dFRf5wqqvJkjM="
+        }
+      ]
+    },
+    {
       "Route": "files/product-excel-9ca2c73-1f.u2ft5gxdaj.xlsx",
       "AssetFile": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-9ca2c73-1f.xlsx",
       "Selectors": [],
@@ -1811,6 +1935,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-QV2G+VXWkThigH41wAbsl5wGFkJosjWPzgeDdRfpVy0="
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-c1cf60a-33.xlsx",
+      "AssetFile": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-c1cf60a-33.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y0Iajho8+SNKZ0O1paCxzrrjr3jXnXaCeHu+KE0SJzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y0Iajho8+SNKZ0O1paCxzrrjr3jXnXaCeHu+KE0SJzI="
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-c1cf60a-33.z65uleagnt.xlsx",
+      "AssetFile": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-c1cf60a-33.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y0Iajho8+SNKZ0O1paCxzrrjr3jXnXaCeHu+KE0SJzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z65uleagnt"
+        },
+        {
+          "Name": "label",
+          "Value": "files/product-excel-c1cf60a-33.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y0Iajho8+SNKZ0O1paCxzrrjr3jXnXaCeHu+KE0SJzI="
         }
       ]
     },

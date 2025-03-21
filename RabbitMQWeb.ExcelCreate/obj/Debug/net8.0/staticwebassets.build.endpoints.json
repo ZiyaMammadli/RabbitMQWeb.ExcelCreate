@@ -249,6 +249,88 @@
       ]
     },
     {
+      "Route": "files/product-excel-4322cff-76.c7r8y3mbet.xlsx",
+      "AssetFile": "files/product-excel-4322cff-76.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uKkn8oHd4l0O3gwTtcnzOXZ3TfV+n2dFRf5wqqvJkjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:44:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c7r8y3mbet"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uKkn8oHd4l0O3gwTtcnzOXZ3TfV+n2dFRf5wqqvJkjM="
+        },
+        {
+          "Name": "label",
+          "Value": "files/product-excel-4322cff-76.xlsx"
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-4322cff-76.xlsx",
+      "AssetFile": "files/product-excel-4322cff-76.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uKkn8oHd4l0O3gwTtcnzOXZ3TfV+n2dFRf5wqqvJkjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:44:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uKkn8oHd4l0O3gwTtcnzOXZ3TfV+n2dFRf5wqqvJkjM="
+        }
+      ]
+    },
+    {
       "Route": "files/product-excel-9ca2c73-1f.u2ft5gxdaj.xlsx",
       "AssetFile": "files/product-excel-9ca2c73-1f.xlsx",
       "Selectors": [],
@@ -491,6 +573,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-QV2G+VXWkThigH41wAbsl5wGFkJosjWPzgeDdRfpVy0="
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-c1cf60a-33.xlsx",
+      "AssetFile": "files/product-excel-c1cf60a-33.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y0Iajho8+SNKZ0O1paCxzrrjr3jXnXaCeHu+KE0SJzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:45:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y0Iajho8+SNKZ0O1paCxzrrjr3jXnXaCeHu+KE0SJzI="
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-c1cf60a-33.z65uleagnt.xlsx",
+      "AssetFile": "files/product-excel-c1cf60a-33.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y0Iajho8+SNKZ0O1paCxzrrjr3jXnXaCeHu+KE0SJzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:45:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z65uleagnt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y0Iajho8+SNKZ0O1paCxzrrjr3jXnXaCeHu+KE0SJzI="
+        },
+        {
+          "Name": "label",
+          "Value": "files/product-excel-c1cf60a-33.xlsx"
         }
       ]
     },

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using RabbitMQWeb.ExcelCreate.Hubs;
 using RabbitMQWeb.ExcelCreate.Models;
 using RabbitMQWeb.ExcelCreate.Registrations;
 
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddAppDbContextRegistration(builder.Configuration);
 builder.Services.AddRabbitMQRegistration(builder.Configuration);
+builder.Services.AddSignalR();
 var app = builder.Build();
 
 
@@ -81,7 +83,10 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapHub<MyHub>("/MyHub");
+});
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

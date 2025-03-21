@@ -31,7 +31,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="GetFiles">Files</a>
                         </li>
-                        @if(!Context.User.Identity.IsAuthenticated)
+                        @if (!Context.User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-controller="Account" asp-action="Login">Login</a>
@@ -60,6 +60,38 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.7/signalr.min.js" integrity="sha512-7SRCYIJtR6F8ocwW7UxW6wGKqbSyqREDbfCORCbGLatU0iugBLwyOXpzhkPyHIFdBO0K2VCu57fvP2Twgx1o2A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        $(document).ready(function() {
+
+            var connection= new signalR.HubConnectionBuilder().withUrl("/MyHub").build();
+
+            start();
+            function start(){
+                connection.start().then().catch((err)=>{
+                    console.log(err)
+                    setTimeout(()=>start(),2000);
+                })
+            }
+
+            connection.on("CompletedFile",()=>{
+
+                console.log("Creating Excel is completed...")
+                        Swal.fire({
+                            position: "top-end",
+                            icon: "success",
+                            title: "Your Excel file is already ready",
+                            showConfirmButton: true,
+                            confirmButtonText:"Look at files"
+                        }).then((result)=>{
+                            if(result.isConfirmed){
+                               window.location="/product/GetFiles";
+                            }
+                        })
+            });
+        })
+    </script>
 </body>
 </html>
