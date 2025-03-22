@@ -331,6 +331,88 @@
       ]
     },
     {
+      "Route": "files/product-excel-673303e-c1.xlsx",
+      "AssetFile": "files/product-excel-673303e-c1.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BqvmkY8vzam6Kga+eF3jLV95HSjLBLGIkRk23mqNMpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:46:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BqvmkY8vzam6Kga+eF3jLV95HSjLBLGIkRk23mqNMpU="
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-673303e-c1.y647kc4jhq.xlsx",
+      "AssetFile": "files/product-excel-673303e-c1.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BqvmkY8vzam6Kga+eF3jLV95HSjLBLGIkRk23mqNMpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:46:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y647kc4jhq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BqvmkY8vzam6Kga+eF3jLV95HSjLBLGIkRk23mqNMpU="
+        },
+        {
+          "Name": "label",
+          "Value": "files/product-excel-673303e-c1.xlsx"
+        }
+      ]
+    },
+    {
       "Route": "files/product-excel-9ca2c73-1f.u2ft5gxdaj.xlsx",
       "AssetFile": "files/product-excel-9ca2c73-1f.xlsx",
       "Selectors": [],

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nqfVm4I+rdYrVodCq3pa5vKq97+izor+4D8UcnSbCVs=",
+  "Hash": "IQkBJsywv81cSHcCjLZnH9kqWc3Gh03kNLnrvxbgYzM=",
   "Source": "RabbitMQWeb.ExcelCreate",
   "BasePath": "_content/RabbitMQWeb.ExcelCreate",
   "Mode": "Default",
@@ -120,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\product-excel-4322cff-76.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-673303e-c1.xlsx",
+      "SourceId": "RabbitMQWeb.ExcelCreate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\",
+      "BasePath": "_content/RabbitMQWeb.ExcelCreate",
+      "RelativePath": "files/product-excel-673303e-c1#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y647kc4jhq",
+      "Integrity": "BqvmkY8vzam6Kga+eF3jLV95HSjLBLGIkRk23mqNMpU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\product-excel-673303e-c1.xlsx"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-9ca2c73-1f.xlsx",
@@ -1689,6 +1710,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-uKkn8oHd4l0O3gwTtcnzOXZ3TfV+n2dFRf5wqqvJkjM="
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-673303e-c1.xlsx",
+      "AssetFile": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-673303e-c1.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BqvmkY8vzam6Kga+eF3jLV95HSjLBLGIkRk23mqNMpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:46:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BqvmkY8vzam6Kga+eF3jLV95HSjLBLGIkRk23mqNMpU="
+        }
+      ]
+    },
+    {
+      "Route": "files/product-excel-673303e-c1.y647kc4jhq.xlsx",
+      "AssetFile": "C:\\Users\\user\\source\\repos\\RabbitMQWeb.ExcelCreate\\RabbitMQWeb.ExcelCreate\\wwwroot\\files\\product-excel-673303e-c1.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BqvmkY8vzam6Kga+eF3jLV95HSjLBLGIkRk23mqNMpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:46:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y647kc4jhq"
+        },
+        {
+          "Name": "label",
+          "Value": "files/product-excel-673303e-c1.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BqvmkY8vzam6Kga+eF3jLV95HSjLBLGIkRk23mqNMpU="
         }
       ]
     },

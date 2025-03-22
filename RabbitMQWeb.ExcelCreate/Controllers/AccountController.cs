@@ -28,5 +28,11 @@ namespace RabbitMQWeb.ExcelCreate.Controllers
             var signInResult=await _signInManager.PasswordSignInAsync(user, Password,true,false);
             return RedirectToAction("Index","Home");
         }
+        [HttpPost]
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index","Home");
+        }
     }
 }

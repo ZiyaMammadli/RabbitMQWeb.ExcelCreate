@@ -34,13 +34,16 @@
                         @if (!Context.User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Account" asp-action="Login">Login</a>
+                                <a class="btn btn-primary" asp-controller="Account" asp-action="Login">Login</a>
                             </li>
                         }
                     </ul>
                     @if (Context.User.Identity.IsAuthenticated)
                     {
-                        <span>UserName : @Context.User.Identity.Name</span>
+                        <span style="margin-right:10px">UserName : @Context.User.Identity.Name</span>
+                        <form method="post" asp-controller="Account" asp-action="LogOut">
+                            <button type="submit" class="btn btn-danger">LogOut</button>
+                        </form>
                     }
                 </div>
             </div>
